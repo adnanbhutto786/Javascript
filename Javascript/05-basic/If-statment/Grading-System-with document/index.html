@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="myh1">Student Report Card with Grades</h1>
+    <form action="" id="reportform">
+    <label>Enter Your Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" value="Adnan Ali Bhutto" required><br/><br/>
+    <label>Enter Your rollNo:</label>
+    <input type="text" id="rollNo" placeholder="Enter your rollNo" value="338229" required><br/><br/>
+    <label>Enter Your Attandance percentage:</label>
+    <input type="text" id="attandanceId" placeholder="Enter your name" required><br/><br/>
+
+    <label>Enter Marks Math:</label>
+    <input type="number"  id="math" placeholder="Enter Marks math" required> <br><br>
+    <label>Enter Marks English:</label>
+    <input type="number"  id="eng" placeholder="Enter Marks English" required> <br><br>
+    <label>Enter Marks Science:</label>
+    <input type="number"  id="science" placeholder="Enter Marks Science" required> <br><br>
+    <label>Enter Marks Pst:</label>
+    <input type="number"  id="pst" placeholder="Enter Marks Pst" required> <br><br>
+
+    <button type="button" id="mySubmit">Generate Report Card</button>
+    <button type="reset">reset</button>
+    </form>
+
+    <div class="result" id="resultdiv"></div>
+ <script src="app.js"></script>   
+</body>
+</html>
